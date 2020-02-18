@@ -8,4 +8,15 @@
    height: 80vh;
 }
 
-/* height: -webkit-fill-available; */
+#experience {
+   text-align: center;
+}
+
+
+/* @media (max-width: 576px) {
+   #hero img {
+      height: -webkit-fill-available;
+   }
+} */
+
+
