@@ -1,0 +1,11 @@
+/* body {
+   color: #084211;
+} */
+
+#hero img {
+   width: 100%;
+   object-fit: cover;
+   height: 80vh;
+}
+
+/* height: -webkit-fill-available; */
