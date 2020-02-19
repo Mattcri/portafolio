@@ -12,6 +12,22 @@
    text-align: center;
 }
 
+#experience .wrap-ring-and-rebel, .wrap-front {
+   font-size: 55px;
+}
+
+#experience .fab, .fas {
+   margin: 10px;
+}
+
+#experience p {
+   font-size: 18px;
+}
+
+#technologies {
+   text-align: center;
+}
+
 
 /* @media (max-width: 576px) {
    #hero img {
