@@ -52,7 +52,31 @@
    border-radius: 100%;
 }
 
+#last-works {
+   text-align: center;
+}
 
+#contact {
+   text-align: center;
+}
+
+
+
+@media (min-width: 768px) {
+   #technologies .wrap-icons-left {
+      position: relative;
+      width: 30%;
+      left: 50%;
+
+   }
+
+   #technologies .wrap-icons-rigth {
+      position: relative;
+      width: 30%;
+      left: 20%;
+   }
+
+}
 
 /* @media (max-width: 576px) {
    #hero img {
