@@ -8,6 +8,14 @@
    height: 80vh;
 }
 
+#about-me .content {
+   text-align: center;
+}
+
+#about-me span {
+   display: none;
+}
+
 #experience {
    text-align: center;
 }
@@ -27,6 +35,23 @@
 #technologies {
    text-align: center;
 }
+
+#technologies .fab {
+   font-size: 80px;
+}
+
+#technologies .carousel-indicators {
+   position: relative;
+   top: 10px;
+}
+
+#technologies .carousel-indicators li {
+   background-color: #373A3C;
+   width: 10px;
+   height: 10px;
+   border-radius: 100%;
+}
+
 
 
 /* @media (max-width: 576px) {

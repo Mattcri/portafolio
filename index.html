@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <a href="https://icons8.com/icon/40253/jquery">JQuery icon by Icons8</a>
+    <a href="https://icons8.com/icon/40253/jquery"></a>
     <title>Portafolio</title>
 </head>
 <body>
@@ -43,11 +43,14 @@
 
     <section id="about-me">
       <div class="container mt-4">
-        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</p>
-        <hr id="line-abm">
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</p>
+          <button type="button" class="btn btn-success btn-about-me">+ Sobre mi</button>
+          <hr id="line-abm">
+        </div>
           <div class="row">
             <div class="col text-center">
-             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</span>
+             <span id="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</span>
             </div>
           </div>
       </div>
@@ -78,39 +81,37 @@
       <div class="container">
         <h3>Padawan en Tecnologías:</h3>
         <div id="carouselExampleIndicators" class="carousel slide my-5" data-ride="carousel">
-          
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="row ">
-                <div class="col-sm-12 col-md-6">
+                <div class="col-6">
                   <i class="fab fa-html5"></i>
                 </div>
-                <div class="col-sm-12 col-md-6">
+                <div class="col-6">
                   <i class="fab fa-css3-alt"></i>
                 </div>
               </div>
             </div>
             <div class="carousel-item">
               <div class="row ">
-                <div class="col-sm-12 col-md-6">
+                <div class="col-6">
                   <i class="fab fa-bootstrap"></i>
                 </div>
-                <div class="col-sm-12 col-md-6">
-                  <img src="https://img.icons8.com/ios-filled/50/000000/jquery.png">
+                <div class="col-6">
+                  <img src="https://img.icons8.com/ios-filled/80/000000/jquery.png">
                 </div>
               </div>
             </div>
           </div>
-
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           </ol>
-
         </div>
-
       </div>
     </section>
+
+    
 
 
 
@@ -126,6 +127,12 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <!-- /Script Boostrap -->
+    <!-- JQuery  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <!-- /JQuery -->
+    <script src="js/script.js"></script>
 
 </body>
 </html>
