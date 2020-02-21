@@ -1,6 +1,11 @@
-/* body {
-   color: #084211;
-} */
+body {
+   color: #096d18;
+   /* color: #31343C; */
+   font-family: 'Quicksand';
+   
+}
+
+/* #31343C */
 
 #hero img {
    width: 100%;
@@ -40,6 +45,23 @@
    font-size: 100px;
 }
 
+#technologies .i-html {
+   color: #f06529;
+}
+
+#technologies .i-css {
+   color: #2965f1;
+}
+
+#technologies .i-js {
+   color: #F7DF1E;
+}
+
+#technologies .i-btp {
+   color: #563d7c;
+} 
+
+
 #technologies .carousel-indicators {
    position: relative;
    top: 10px;
@@ -54,6 +76,7 @@
 
 #last-works {
    text-align: center;
+   /* background: #048e19; */
 }
 
 #contact {
@@ -61,7 +84,7 @@
 }
 
 #contact .container {
-   background: aliceblue;
+   background: #31343C;
 }
 
 #contact .row {
