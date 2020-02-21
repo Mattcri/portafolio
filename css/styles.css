@@ -21,7 +21,7 @@
 }
 
 #experience .wrap-ring-and-rebel, .wrap-front {
-   font-size: 55px;
+   font-size: 65px;
 }
 
 #experience .fab, .fas {
@@ -37,7 +37,7 @@
 }
 
 #technologies .fab {
-   font-size: 80px;
+   font-size: 100px;
 }
 
 #technologies .carousel-indicators {
@@ -58,6 +58,15 @@
 
 #contact {
    text-align: center;
+}
+
+#contact .container {
+   background: aliceblue;
+}
+
+#contact .row {
+   margin-top: 4rem;
+   margin-bottom: 4rem;
 }
 
 
