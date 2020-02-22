@@ -1,7 +1,7 @@
 body {
    /* color: #096d18; */
    color: #585b66;
-   color: #43454c;
+   /* color: #43454c; */
    font-family: 'Quicksand';
    
 }
@@ -12,8 +12,9 @@ body {
 #3D8894
 #f47721 */
 
-header .navbar-dark {
-   color: #ffffff;
+header .navbar-color {
+   
+   background: linear-gradient(90deg, rgba(88,91,102,1) 20%, rgba(67,69,76,1) 60%, rgba(49,52,60,1) 90%);
 }
 
 #hero img {
