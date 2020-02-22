@@ -1,16 +1,25 @@
 body {
-   color: #096d18;
-   /* color: #31343C; */
+   /* color: #096d18; */
+   color: #585b66;
+   color: #43454c;
    font-family: 'Quicksand';
    
 }
 
 /* #31343C */
+/* paleta de colores:
+#585b66 
+#3D8894
+#f47721 */
+
+header .navbar-dark {
+   color: #ffffff;
+}
 
 #hero img {
    width: 100%;
-   object-fit: cover;
-   height: 80vh;
+   /* object-fit: cover;
+   height: 80vh; */
 }
 
 #about-me .content {
