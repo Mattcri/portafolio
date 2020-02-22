@@ -23,8 +23,36 @@ header .navbar-color {
    height: 80vh; */
 }
 
+#hero .row p {
+   margin-bottom: 0;
+}
+
+#hero .h-content {
+   display: flex;
+}
+
+#hero .h-content .row {
+   align-items: center;
+   margin: auto;
+}
+
+#hero h2 strong {
+   color: #f06529;
+}
+
 #about-me .content {
    text-align: center;
+}
+
+#about-me p {
+   font-weight: bold;
+   font-size: 19px;
+}
+
+#about-me .btn-about-me {
+   color: #ffffff;
+   background-color: #005A58;
+   border-color: #005A58;
 }
 
 #about-me span {
@@ -125,9 +153,11 @@ header .navbar-color {
 }
 
 /* @media (max-width: 576px) {
-   #hero img {
-      height: -webkit-fill-available;
+   #hero .row p {
+      margin-bottom: 0;
    }
 } */
+
+
 
 
