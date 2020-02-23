@@ -2,7 +2,7 @@ body {
    /* color: #096d18; */
    color: #585b66;
    /* color: #43454c; */
-   font-family: 'Quicksand';
+   font-family: 'Montserrat', ;
    
 }
 
@@ -57,6 +57,12 @@ header .navbar-color {
 
 #about-me span {
    display: none;
+}
+
+h3 {
+   color: #43454c;
+   font-weight: bold;
+   text-transform: uppercase;
 }
 
 #experience {

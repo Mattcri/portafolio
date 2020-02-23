@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Monoton|Montserrat&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Portafolio</title>
 </head>
 <body>
@@ -22,16 +22,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Sobre mí</a>
+                      <a class="nav-link" href="#about-me">Sobre mí</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Experiencia</a>
+                      <a class="nav-link" href="#experience">Experiencia</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Trabajos</a>
+                      <a class="nav-link" href="#technologies">Trabajos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#contact">Contacto</a>
                     </li>  
                   </ul>
                 </div>
@@ -42,13 +42,13 @@
     <section class="my-3" id="hero">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-6">
+          <div class="col-sm-12 col-md-6 h-img">
             <img src="assets/img/hero-imgweb.jpg" class="rounded" alt="Responsive image">
           </div>
           <div class="col-sm-12 col-md-6 h-content">
             <div class="row ">
               <div class="col-12">
-                <h2>
+                <h2 class="h3">
                   Hola!! Mi nombre es <strong>Matías Criado</strong> y te doy la <strong>Bienvenida a mi Portafolio</strong>  
                 </h2>
               </div>
@@ -87,7 +87,7 @@
                 <i class="fas fa-ring"></i>
                 <i class="fab fa-rebel"></i>
               </div>
-              <p>Integrante de la alinza rebelde y de the fellowship of the ring</p>
+              <p>Integrante de la alinza rebelde y <br> de the fellowship of the ring</p>
             </div>
             <div class="col-sm-12 col-md-6 my-2">
               <div class="wrap-front">
@@ -245,7 +245,10 @@
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
     <!-- /JQuery -->
+    <!-- My Script -->
     <script src="js/script.js"></script>
+    <!-- /My Script -->
+    
 
 </body>
 </html>
