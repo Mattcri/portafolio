@@ -34,19 +34,19 @@ $(document).ready(function(){
          duration: 2000,
          origin: 'bottom',
          distance: '10px',
-         delay: 1000
+         delay: 900
       });
       msr.reveal('.wrap-ring-and-rebel', {
          duration: 2000,
          origin: 'left',
          distance: '300px',
-         delay: 800
+         delay: 600
       });
       msr.reveal('.wrap-front', {
          duration: 2000,
          origin: 'right',
          distance: '300px',
-         delay: 800
+         delay: 600
       });
 
 });
