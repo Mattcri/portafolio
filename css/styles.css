@@ -139,6 +139,12 @@ h3 {
 
 
 @media (min-width: 768px) {
+   
+   #hero img {
+      height: 300px;
+      object-fit: cover;
+   }
+
    #technologies .wrap-icons-left {
       position: relative;
       width: 30%;
