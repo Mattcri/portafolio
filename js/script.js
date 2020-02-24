@@ -3,6 +3,20 @@ $(document).ready(function(){
    $('.btn-about-me').click(function(){
       $('#bio').slideToggle('slow');
    });
+
+   $('.up').click(function(){
+      $('body, html').animate({
+         scrollTop: '0px'
+      }, 500);
+   });
+
+   $(window).scroll(function(){
+      if( $(this).scrollTop() > 0){
+         $('.up').slideDown(500);
+      } else {
+         $('.up').slideUp(500);
+      }
+   });
    
    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
