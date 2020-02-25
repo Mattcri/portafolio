@@ -1,0 +1,85 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header .navbar-expand-lg {
+    background: #E83E8C;
+}
+
+header img {
+    height: 53px;
+    width: 132px;
+}
+
+/* button .navbar-toggler {
+    color: #FFFFFF !important;
+} */
+
+.nav-link {
+    text-align: center;
+}
+
+.nav-link:hover {
+    background: #de448b;
+}
+
+#navbarSupportedContent ul li a {
+    color: #FFFFFF;
+}
+
+#titulo {
+    height: 160px;
+}
+
+#titulo .col h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #707070;
+    margin-top: 4%;
+    font-weight: bold;
+}
+
+#medios-pago {
+    background: #17A2B8;
+}
+
+/* #medios-pago .container {
+    background: white;
+    height: 100px;
+} */
+
+.h3-texto {
+    align-self: center !important;
+}
+
+#medios-pago .content-pago h3 { 
+    color: #FFFFFF;
+    /* width: 350px; */
+    /* height: 55px; */
+    /* font-size: 40px; */
+    font-weight: bold; 
+    /* align-self: center; */
+}
+
+#medios-pago .iconos i {
+    fill: #FFFFFF !important;
+    font-size: 53px;
+    
+   
+}
+
+footer {
+    background: #E83E8C;
+    height: 184px;
+}
+
+footer img {
+    text-align: center;
+    height: 100px;
+    width: 53px;
+    margin-top: 45px;
+}
+
+.fab {
+    color: #FFFFFF;
+}

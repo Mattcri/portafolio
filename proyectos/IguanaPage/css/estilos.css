@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000000;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+nav h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+#hero img {
+    width: 100%;
+}
+
+#info {
+    display: flex;
+    align-items: center;
+}
+
+#info .texto {
+    width: 50%;
+    text-align: justify;
+    position: relative;
+    left: 70px;
+}
+
+#info .imagen {
+    width: 50%;
+}
+
+#info .imagen img {
+    width: 399px;
+    height: 237px;
+    position: relative;
+    left: 30%;
+}
+
+#caracteristicas {
+    width: 100%;
+    background: #1E1A13;
+    height: 340px;
+}
+
+/* #caracteristicas svg {
+    width: 45px;
+    height: 40px;
+} */
+
+/* #caracteristicas .titulo h2 {
+    text-align: center;
+    margin-top: 50px
+} */
+#caracteristicas h2 {
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+
+#caracteristicas .wrap-iconos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    /* padding: 5%; */
+    position: relative;
+    top: 65px;
+}
+
+.ojo, .pacificas, .color {
+    text-align: center;
+    font-size: 24px;
+}
+
+#caracteristicas .wrap-iconos svg {
+    width: 45px;
+    height: 40px;
+}
+
+#caracteristicas .wrap-iconos h4 { 
+    margin: 80px;
+    margin-top: 20px;
+}
+
+#img-iguanas {
+    width: 100%;
+    /* border: 1px solid yellow; */
+}
+
+#img-iguanas .wrap-img {
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+}
+
+#img-iguanas .wrap-img img {
+    width: 316px;
+    height: 202px;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    height: 102px;
+    text-decoration: none;
+    background: #1E1A13;
+    padding-top: 5%;
+}

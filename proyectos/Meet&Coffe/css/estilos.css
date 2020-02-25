@@ -1,0 +1,259 @@
+body{
+    font-family: Open Sans;
+    margin: 0; 
+}
+nav {
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    background: #000f08;
+    padding: 10px;
+    color: #ffffff;
+}
+
+nav > a, nav svg { 
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+nav svg {
+    fill: white;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+nav ul, nav > a {
+    float: left;
+}
+nav li {
+    float: left;
+}
+
+nav li a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 19px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    
+}
+
+.hero {
+    background-image: url('../images/bg-hero.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 422px;
+    position: relative;
+    /* margin-top: auto; */
+}
+
+.hero h1 {
+    /* background: burlywood; */
+    margin: auto;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    bottom: 115px;
+    left: 338px;
+    font-size: 60px;
+}
+
+.hero p {
+    margin: auto;
+    z-index: 2;
+    position: absolute;
+    color: white;
+    top: 340px;
+    right: 120px;
+    font-size: 40px;
+}
+
+.ubicación {
+    /* text-align: center; */
+    margin: 8em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.ubicación h2 {
+    font-size: 2.8em;
+    font-weight: 800;
+}
+
+.ubicación p {
+    margin: auto;
+}
+
+.charla {
+    text-align: center;
+    background: #A4452C;
+    padding: 3em;
+    display: flex;
+}
+
+.charla img {
+    /* float: left; */
+    padding-left: 140px;
+    padding-top: 10px;
+    width: 30%;
+}
+
+.charla-texto{
+    /* display: inline-block; */
+    width: 40%;
+    text-align: justify;
+    color: #ffffff;
+    padding-left: 5%;
+}
+
+.charla-texto h2 {
+    font-size: 45px;
+    margin: auto;
+}
+
+.charla-texto h3 {
+    font-size: 40px;
+    margin: auto;
+}
+
+.charla-texto h4 {
+    font-size: 33px;
+    margin: auto;
+}
+
+.charla-texto h5 {
+    font-size: 14px;
+    margin: auto;
+}
+
+.charla-texto p {
+    font-size: 20px;
+}
+
+.eventos {
+    text-align: center;
+    margin: 110px;
+}
+
+.eventos h2, h3 {
+    font-weight: 800;
+}
+
+.eventos-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.eventos-wrap img {
+    width: 300px;
+    height: 200px;
+    margin: 40px; 
+}
+
+.eventos-wrap h3 {
+    margin: 0;
+}
+
+.eventos-wrap h3 a {
+    text-decoration: none;
+    color: #000F08;
+}
+
+footer {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background: #000F08;
+    height: 284px;
+}
+
+.iconos-footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+footer p {
+    margin: 25px;
+    color: white;
+    text-align: center;
+}
+
+/* css especifico de eventos-1 */
+
+/* .simposio-evento {
+    border: 2px solid red;
+} */
+
+.evento-wrap {
+    margin: 300px;
+    /* border: 2px solid blue; */
+    text-align: justify;
+    margin-top: 90px;
+}
+
+.evento-wrap figure img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.evento-wrap figure { 
+    margin: 0;
+    margin-bottom: 55px;
+}
+
+.evento-wrap h1, h2 {
+    font-weight: 800;
+}
+
+.evento-wrap p {
+    margin-bottom: 25px;
+}
+
+.evento-wrap h1 {
+    margin-bottom: 65px;
+}
+
+.evento-wrap h2 {
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.svg-inline--fa {
+    fill: white;
+}
+
+.Github {
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+}
+
+.Twitter {
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+}
+
+.Linkedin {
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+}
+
+/* .eventos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
